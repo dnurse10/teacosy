@@ -5,12 +5,24 @@ body {
   color: seashell;
   opacity: .9;
   background-color: black;
+  text-align: center;
+  display: block;
 }
 
 h2,
 h4 {
   margin: 0;
   padding: 10px;
+}
+
+div {
+  display: block;
+}
+
+.main {
+  width: 1200px;
+  padding-top: 69px;
+  margin: auto;
 }
 
 /*Navigation Section */
@@ -21,10 +33,10 @@ h4 {
   display: flex;
   width: 100%;
   align-items: center;
+  z-index: 1;
 }
 
 .navigation__logo {
-  flex-grow: 1;
   padding-left: 10px;
 }
 
@@ -32,22 +44,27 @@ img {
   height: 50px;
 }
 
+.navigation__buttons {
+  flex-grow: 1;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 20px;
+}
+
 .navigation__button {
   color: seashell;
   text-decoration: underline;
-  padding-right: 10px;
+  padding-right: 20px;
   opacity: .9;
 }
 /*Header Section */
 .header {
   display: flex;
-  position: absolute;
   flex-direction: column;
   justify-content: center;
-  top: 70px;
+  position: relative;
   background-image: url(./image-mission-background.jpg);
   height: 700px;
-  width: 1200px;
 }
 
 .header__title {
@@ -61,7 +78,8 @@ img {
 
 /*Tea of the month Section */
 
-
+.tea-month {
+}
 
 
 /*Locations Section */
