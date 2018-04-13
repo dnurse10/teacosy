@@ -1,0 +1,43 @@
+/*Page wide Section */
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: .9;
+}
+
+
+/*Navigation Section */
+.navigation {
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+
+.navigation__logo {
+  flex-grow: 1;
+  padding-left: 10px;
+}
+
+img {
+  height: 50px;
+}
+
+/*Header Section */
+
+
+
+/*Tea of the month Section */
+
+
+
+
+/*Locations Section */
+
+
+
+/*Footer Section */
