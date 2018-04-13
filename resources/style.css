@@ -27,6 +27,12 @@ img {
   height: 50px;
 }
 
+.navigation__button {
+  color: seashell;
+  text-decoration: underline;
+  padding-right: 10px;
+
+}
 /*Header Section */
 
 
