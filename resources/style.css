@@ -81,6 +81,12 @@ img {
 
 .tea-month {
   width: 1000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 1200px;
+  padding-top: 70px;
 }
 
 .tea-month__teas {
@@ -118,7 +124,7 @@ img {
 .location__address {
   display: flex;
   justify-content: center;
-  margin-bottom: 20px;
+  margin-bottom: 35px;
 }
 
 .location h2 {
@@ -128,3 +134,12 @@ img {
 
 
 /*Footer Section */
+.footer__main {
+  height: 200px;
+  margin-top: 15px;
+}
+
+.footer__copywrite {
+  text-align: left;
+  padding-left: 20px;
+}
