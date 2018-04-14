@@ -25,8 +25,8 @@ div {
   margin: auto;
 }
 
-/*Navigation Section */
-.navigation {
+/*menu Section */
+.menu {
   height: 69px;
   border-bottom: 1px solid seashell;
   position: fixed;
@@ -34,9 +34,10 @@ div {
   width: 100%;
   align-items: center;
   z-index: 1;
+  background-color: black;
 }
 
-.navigation__logo {
+.menu__logo {
   padding-left: 10px;
 }
 
@@ -44,14 +45,14 @@ img {
   height: 50px;
 }
 
-.navigation__buttons {
+.menu__buttons {
   flex-grow: 1;
   display: flex;
   justify-content: flex-end;
   padding-right: 20px;
 }
 
-.navigation__button {
+.menu__button {
   color: seashell;
   text-decoration: underline;
   padding-right: 20px;
@@ -79,11 +80,51 @@ img {
 /*Tea of the month Section */
 
 .tea-month {
+  width: 1000px;
 }
 
+.tea-month__teas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.tea-month__image-headings {
+  padding-right: 30px;
+}
+
+.tea-month__images {
+  width: 300px;
+  height: 200px;
+}
 
 /*Locations Section */
+.location {
+  background-image: url(./image-background.jpg);
+  height: 500px;
+}
 
+.location__boxes {
+  display: flex;
+  justify-content: center;
+}
+
+.location__box {
+  width: 300px;
+  background-color: black;
+  margin-right: 40px;
+}
+
+.location__address {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.location h2 {
+  padding-top: 100px;
+  padding-bottom: 15px;
+}
 
 
 /*Footer Section */
